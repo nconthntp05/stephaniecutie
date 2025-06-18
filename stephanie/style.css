@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  background: url("liloandstitch.jpg") center center / cover no-repeat fixed;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+header {
+  background: #003366;
+  color: #fff;
+  padding: 1em 0;
+}
+
+nav a {
+  margin: 0 1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffcc00;
+}
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero img {
+  max-width: 250px;
+  margin-bottom: 1em;
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #c51162;
+}
+
+footer {
+  background-color: #006064;
+  color: white;
+  padding: 1em;
+  margin-top: 2em;
+}
